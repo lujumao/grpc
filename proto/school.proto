@@ -1,0 +1,11 @@
+syntax = "proto3";
+package grpc_proto.test;
+option go_package="test";
+
+message Student
+{
+    uint32 age = 1;
+    uint32 name = 2;
+}
+
+
