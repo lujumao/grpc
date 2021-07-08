@@ -44,7 +44,7 @@ cp protoc-gen-go  /usr/local/bin/
 - --go_out: 生产golang的proto文件
 - plugins: 服务端
 - grpc: grpc服务
-- ../active/: 输出文件的位置
+- ../test/: 输出文件的位置
 - *.proto: 编译当前目录的所有的 proto文件
 
 编译服务
